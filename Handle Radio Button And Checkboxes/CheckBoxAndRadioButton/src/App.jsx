@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import CheckBoxAndRadioButton from './CheckBoxAndRadioButton'
 
 function App() {
   // const [gender, setGender] = useState("female");
@@ -13,8 +14,8 @@ function App() {
   // const [gender, setGender] = useState("female")
   // const [city, setCity] = useState('Sangli')
 
-  const [gender, setGender] = useState("female");
-  const [city, setCity] = useState("Sangli");
+  // const [gender, setGender] = useState("female");
+  // const [city, setCity] = useState("Sangli");
 
 
   return (
@@ -68,22 +69,24 @@ function App() {
       </select>
         <h3>Selected City: {city}</h3> */}
 
-      <h1>Handle Radio button</h1>
-      <input type="radio" name='gender' value='female' onChange={(event)=>setGender(event.target.value)} checked={gender=='female'} />
-       <label htmlFor="female">Female</label>
-       <br />
-       <input type="radio" name='gender' value='male' onChange={(event)=>setGender(event.target.value)} checked={gender=='male'} />
-       <label htmlFor='male'>Male</label>
-       <h2>Select Gender: {gender}</h2>
+      {/* // <h1>Handle Radio button</h1>
+      // <input type="radio" name='gender' value='female' onChange={(event)=>setGender(event.target.value)} checked={gender=='female'} />
+      //  <label htmlFor="female">Female</label>
+      //  <br />
+      //  <input type="radio" name='gender' value='male' onChange={(event)=>setGender(event.target.value)} checked={gender=='male'} />
+      //  <label htmlFor='male'>Male</label>
+      //  <h2>Select Gender: {gender}</h2>
 
-       <br /><br />
-       <select defaultValue={"Sangli"} onChange={(event)=>setCity(event.target.value)}>
-        <option value="Pune">Pune</option>
-        <option value="Sangli">Sangli</option>
-        <option value="Satara">Satara</option>
-        <option value="Mumbai">Mumbai</option>
-       </select>
-       <h3>Selected: {city}</h3>
+      //  <br /><br />
+      //  <select defaultValue={"Sangli"} onChange={(event)=>setCity(event.target.value)}>
+      //   <option value="Pune">Pune</option>
+      //   <option value="Sangli">Sangli</option>
+      //   <option value="Satara">Satara</option>
+      //   <option value="Mumbai">Mumbai</option>
+      //  </select>
+      //  <h3>Selected: {city}</h3> */}
+
+       <CheckBoxAndRadioButton/>
     </div>
   )
 }

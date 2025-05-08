@@ -242,31 +242,31 @@ function App() {
 //     </table>
  // </div>
 //)
-const userName =["Atharv Kachare", "Omkar Jadhav", "Shreyas Koulge"]
-const userData =[
-      {
-        name:"Athrv Kachare",
-        age:"21",
-        email:"atharvkachare9@gmail.com",
-        id:"1"
-      },
-      {
-        name:"Omkar Jadhav",
-        age:"21",
-        email:"oj2@gmail.com",
-        id:"2"
-      },
-      {
-        name:"Shreyas Koulge",
-        age:"21",
-        email:"shreyashkoulge2@gmail.com",
-        id:"3"
-      }
-    ]
+// const userName =["Atharv Kachare", "Omkar Jadhav", "Shreyas Koulge"]
+// const userData =[
+//       {
+//         name:"Athrv Kachare",
+//         age:"21",
+//         email:"atharvkachare9@gmail.com",
+//         id:"1"
+//       },
+//       {
+//         name:"Omkar Jadhav",
+//         age:"21",
+//         email:"oj2@gmail.com",
+//         id:"2"
+//       },
+//       {
+//         name:"Shreyas Koulge",
+//         age:"21",
+//         email:"shreyashkoulge2@gmail.com",
+//         id:"3"
+//       }
+//     ]
 
     return(
       <div>
-        <h1>Looping JSX with Map Function</h1>
+        {/* <h1>Looping JSX with Map Function</h1>
         <table border="1">
           <thead>
             <tr>
@@ -288,7 +288,8 @@ const userData =[
               ))
             }
           </tbody>
-        </table>
+        </table> */}
+        
       </div>
     )
 }

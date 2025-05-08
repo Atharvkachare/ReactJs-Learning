@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "name": "Atharv",
+      "age": 29,
+      "email": "atharv@test.com",
+      "id": "13sx"
+    },
+    {
+      "name": "Shruti",
+      "age": "22",
+      "email": "shruti@test.com",
+      "id": "83dc"
+    },
+    {
+      "id": "f61f",
+      "name": "Omkar",
+      "email": "oj.123@gmail.com",
+      "age": "23"
+    }
+  ]
+}

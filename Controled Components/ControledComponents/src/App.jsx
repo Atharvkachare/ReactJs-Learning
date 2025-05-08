@@ -20,9 +20,12 @@ function App() {
   // const [email, setEmail] = useState("");
   // const [password, setPassword] = useState("");
 
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  // const [name, setName] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [password, setPassword] = useState("");
+  const [name, setName] = useState("")
+  const [email, setEmail] = useState("")
+  const [password, setPassword] = useState("")
   return (
 
       <div>
@@ -106,7 +109,7 @@ function App() {
           <h4>{password}</h4>
         </form> */}
 
-        <input type="text" placeholder='Enter name' value={name} onChange={(event)=>setName(event.target.value)} />
+        {/* <input type="text" placeholder='Enter name' value={name} onChange={(event)=>setName(event.target.value)} />
         <br /><br />
         <input type="text" placeholder='Enter Email' value={email} onChange={(event)=>setEmail(event.target.value)} />
         <br /><br />
@@ -115,6 +118,22 @@ function App() {
         <button>Submit</button>
         <br /><br />
         <button onClick={()=> setName("") | setEmail("") | setPassword("")}>Clear form</button>
+        <h2>{name}</h2>
+        <h2>{email}</h2>
+        <h2>{password}</h2> */}
+
+        <form>
+          <input type="text" placeholder='Enter name' value={name} onChange={(event)=>setName(event.target.value)}/>
+          <br /><br />
+          <input type="text" placeholder='Email' value={email} onChange={(event)=>setEmail(event.target.value)} />
+          <br /><br />
+          <input type="text" placeholder='Password' value={password} onChange={(event)=>setPassword(event.target.value)} />
+          <br /><br />
+          <button>Submit</button>
+          <br /><br />
+          <button onClick={()=>setName('') || setEmail('') || setPassword('')}>Clear Form</button>
+        </form>
+        <br />
         <h2>{name}</h2>
         <h2>{email}</h2>
         <h2>{password}</h2>
